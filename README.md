@@ -130,17 +130,17 @@ fn main() {
   ```
 
 ---
-## Run Command to remove target
+### Run Command to remove target
 
-# Remove the target directory from the repository's index
+#### Remove the target directory from the repository's index
 ```
 git rm -r --cached target
 ```
-# Commit the changes
+#### Commit the changes
 ```
 git commit -m "Remove target directory from repository"
 ```
-# Push the changes to the remote repository
+#### Push the changes to the remote repository
 ```
 git push origin main
 ```
