@@ -130,6 +130,21 @@ fn main() {
   ```
 
 ---
+## Run Command to remove target
+
+# Remove the target directory from the repository's index
+```
+git rm -r --cached target
+```
+# Commit the changes
+```
+git commit -m "Remove target directory from repository"
+```
+# Push the changes to the remote repository
+```
+git push origin main
+```
+
 
 ## License
 This project is open-source and available for educational and experimental use. Modify and enhance the code to explore Rust programming concepts.
